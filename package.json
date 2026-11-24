@@ -1,0 +1,15 @@
+{
+  "name": "hr-employee-tracker",
+  "version": "1.0.0",
+  "description": "HR web application for employee management",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
